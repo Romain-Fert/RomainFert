@@ -30,5 +30,6 @@ Une branche par section, mergée sur `main` après validation.
 ```bash
 git clone https://github.com/VOTRE-USER/tp-animations-web.git
 cd tp-animations-web
+
 # Ouvrir index.html dans un navigateur
 ```
