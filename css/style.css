@@ -202,3 +202,29 @@ animation-duration: 0.01ms !important;
 transition-duration: 0.01ms !important;
 }
 }
+
+.card {
+opacity: 0;
+transform: translateY(40px);
+transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.card.is-visible {
+opacity: 1;
+transform: translateY(0);
+}
+
+.stats {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: var(--space-md);
+padding: var(--space-lg) var(--space-md);
+background: var(--color-dark);
+color: white;
+text-align: center;
+}
+.stat__number {
+display: block;
+font-size: 3rem;
+font-weight: bold;
+color: var(--color-primary);
+}
