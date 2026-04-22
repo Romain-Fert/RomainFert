@@ -105,3 +105,17 @@ display: grid;
 grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 gap: var(--space-md);
 }
+
+/* Mobile : ajuster la hero */
+@media (max-width: 768px) {
+.hero__title {
+font-size: 2rem;
+}
+.nav {
+flex-direction: column;
+gap: var(--space-sm);
+}
+.nav__menu {
+gap: var(--space-sm);
+}
+}
